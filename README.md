@@ -1,5 +1,13 @@
 # generative-belief
-Using generative models for belief/event factuality prediction. Please email jmurzaku@cs.stonybrook.edu for corpora and checkpoints.
+Using generative models for belief/event factuality prediction, beating the state of the art from Murzaku et. al 2022 (https://aclanthology.org/2022.coling-1.66). Please email jmurzaku@cs.stonybrook.edu for corpora and checkpoints.
+
+To use our model, please use our inference code here: https://github.com/yurpl/generative-belief/blob/main/checkpoints/load.py.
+
+Potential applications of using our factuality models: 
+- Social media analysis
+- Belief level in text or documents
+- Combination with sentiment to mine user's cognitive states
+
 
 If you find our work useful, please cite us at:
 ```
