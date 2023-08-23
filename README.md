@@ -1,7 +1,9 @@
 # generative-belief
-Using generative models for belief/event factuality prediction, beating the state of the art from Murzaku et. al 2022 (https://aclanthology.org/2022.coling-1.66). Please email jmurzaku@cs.stonybrook.edu for corpora and checkpoints.
+Using generative models for belief/event factuality prediction, beating the previous state-of-the-art from Murzaku et al. 2022 (https://aclanthology.org/2022.coling-1.66). This repo uses the same archtiecture and is a general follow-up and extension Murzaku et al. 2023 (https://aclanthology.org/2023.findings-acl.44/).
 
-To use our model, please use our inference code here: https://github.com/yurpl/generative-belief/blob/main/checkpoints/load.py.
+To use our model for factuality/beleif generation, please use our inference code here: https://github.com/yurpl/generative-belief/blob/main/checkpoints/load.py. This should work on most datasets and return (fully end-to-end) the head words and their associated factuality values.
+
+The checkpoints are here (too large to upload on Github): https://drive.google.com/drive/folders/1ZNvQOstSZkOdcPD-wVybGV6xKqtEQk4B?usp=sharing
 
 Potential applications of using our factuality models: 
 - Social media analysis
